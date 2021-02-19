@@ -22,5 +22,10 @@ namespace Testweb
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+        public int CalCulate(int x , int y)
+        {
+            return x + y;
+        }
     }
 }
